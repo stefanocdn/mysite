@@ -1,0 +1,48 @@
+<section class="resume-section" id="contact" style="border-bottom: 1px solid #eee">
+  <h3 style="margin-top: 0px;margin-bottom: 40px;">Contact</h3>
+  <div class="container p-0">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="colorlib-text">
+            <p><a href="#">stephane.cedroni@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon">
+            <i class="fa fa-map"></i>
+          </div>
+          <div class="colorlib-text">
+            <p>205 East 85th Street, New York NY 10028</p>
+          </div>
+        </div>
+
+        <div class="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+          <div class="colorlib-icon">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="colorlib-text">
+            <p><a href="tel://">+1 917 847 2598</a></p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="col-md-6 offset-md-1">
+        <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+          <input type="text" name="email" placeholder="Email Address">
+          <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+          <input type="hidden" name="_next" value="http://localhost:4000">
+          <input type="hidden" name="_subject" value="New Contact Form Submission">
+          <input type="text" name="_gotcha" style="display:none">
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

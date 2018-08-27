@@ -1,0 +1,40 @@
+<!-- <div class="sidenav">
+  <div class="profile-image-container">
+    <img src="https://via.placeholder.com/350x350" alt="..." class="img-thumbnail rounded-circle profile-image">
+  </div>
+
+  <div id="list-example" class="sidenav-links list-group">
+    <a href="#list-item-1" class="list-group-item list-group-item-action">
+      <span>
+        <i style="width: 16px; height: 16px" data-feather="anchor"></i>
+        About
+      </span>
+    </a>
+    <a href="#list-item-2" class="list-group-item list-group-item-action">Services</a>
+    <a href="#list-item-3" class="list-group-item list-group-item-action">Clients</a>
+    <a href="#list-item-4" class="list-group-item list-group-item-action">Contact</a>
+  </div>
+</div> -->
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      <a class="sidebar-nav-item" href="">Link 1</a>
+      <a class="sidebar-nav-item" href="">Link 2</a>
+      <a class="sidebar-nav-item" href="">Link 3</a>
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
