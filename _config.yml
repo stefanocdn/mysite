@@ -17,8 +17,9 @@ title: Tutoring
 email: stephane.cedroni@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here.
-baseurl: "/mysite" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: /mysite # the subpath of your site, e.g. /blog
+# baseurl: ""
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -29,7 +30,7 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: css
-
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
