@@ -184,6 +184,20 @@
 // a:hover, a:focus, a:active {
 //   color: #824027;
 // }
+
+.custom-button {
+  width: 100%;
+  color: #ffffff;
+  background-color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 20px;
+  display: block !important;
+  font-size: 18px;
+  text-align: center;
+}
+
+
 #sideNav {
   .navbar-nav .nav-item .nav-link {
     font-weight: 500;
