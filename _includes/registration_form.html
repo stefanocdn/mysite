@@ -1,0 +1,80 @@
+<div class="row mt-5 mb-80" id="inscription">
+  <div class="col-12">
+    <h2 class="text-center">Inscription</h2>
+    <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+      <div class="form-row">
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputName">Prénom et Nom</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Nom">
+        </div>
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputPhone">Téléphone</label>
+          <input type="tel" class="form-control" id="inputPhone" placeholder="Téléphone">
+        </div>
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputWeek">Choisir la semaine</label>
+          <select id="inputWeek" class="form-control">
+            <option selected>Semaine du 19 août</option>
+            <option>Semaine du 26 août</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputGrade">Choisir la classe</label>
+          <select id="inputGrade" class="form-control">
+            <option selected>Troisième</option>
+            <option>Seconde</option>
+            <option>Première Spé Maths</option>
+            <option>Première Spé Physique</option>
+            <option>Terminale Spé Maths</option>
+            <option>Terminale Spé Physique</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputSubject">Choisir la matière</label>
+          <select id="inputSubject" class="form-control">
+            <option selected>Mathématiques</option>
+            <option>Physique-Chimie</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputOption">Disponibilité</label>
+          <select id="inputOption" class="form-control">
+            <option selected>Matin</option>
+            <option>Après-midi</option>
+            <option>Matin et après-midi</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6 pr-4">
+          <label for="inputOption">Choisir l'option</label>
+          <select id="inputOption" class="form-control">
+            <option selected>En groupe</option>
+            <option>Individuel</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAverageGrade">Moyenne de l'année précédente</label>
+          <input type="number" class="form-control" id="inputAverageGrade" placeholder="Moyenne">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-12">
+          <label for="inputNotes">Informations supplémentaires</label>
+          <textarea class="form-control" id="inputNotes" rows="4" placeholder="Ajoutez des informations supplémentaires ici..."></textarea>
+        </div>
+      </div>
+      <button type="submit" class="mt-1 btn btn-primary py-2 px-4 font-button">S'inscrire</button>
+    </form>
+  </div>
+</div>
