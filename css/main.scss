@@ -263,6 +263,31 @@ p {
   font-size: 1.2rem;
 }
 
+.navigation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.navigation-button .icon {
+  margin-right: 8px;
+}
+
 @import "nav";
 @import "resumeitem";
 @import "formkeep";

@@ -1,3 +1,5 @@
+form.wj-contact input[type="email"],
+form.wj-contact input[type="tel"],
 form.wj-contact input[type="text"],
 form.wj-contact textarea[type="text"] {
   width: 100%;
@@ -13,7 +15,7 @@ form.wj-contact textarea[type="text"] {
   border-width: 1px;
   border-radius: 3px;
   transition: box-shadow .2s ease;
-  border-color: #eee;
+  border-color: #ddd;
 }
 
 form.wj-contact input[type="submit"] {
