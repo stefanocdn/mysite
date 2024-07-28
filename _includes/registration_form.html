@@ -5,21 +5,21 @@
       <div class="form-row">
         <div class="form-group col-md-6 pr-4">
           <label for="inputName">Prénom et Nom</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Nom" required>
+          <input name="inputName" type="text" class="form-control" id="inputName" placeholder="Nom" required>
         </div>
         <div class="form-group col-md-6 pr-4">
           <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email required">
+          <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required>
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6 pr-4">
           <label for="inputPhone">Téléphone</label>
-          <input type="tel" class="form-control" id="inputPhone" placeholder="Téléphone" required>
+          <input type="tel" class="form-control" id="inputPhone" name="inputPhone" placeholder="Téléphone" required>
         </div>
         <div class="form-group col-md-6 pr-4">
           <label for="inputWeek">Choisir la semaine</label>
-          <select id="inputWeek" class="form-control">
+          <select name="inputWeek" id="inputWeek" class="form-control">
             <option selected>Semaine du 19 août</option>
             <option>Semaine du 26 août</option>
           </select>
@@ -28,7 +28,7 @@
       <div class="form-row">
         <div class="form-group col-md-6 pr-4">
           <label for="inputGrade">Choisir la classe</label>
-          <select id="inputGrade" class="form-control">
+          <select name="inputGrade" id="inputGrade" class="form-control">
             <option selected>Troisième</option>
             <option>Seconde</option>
             <option>Première Spé Maths</option>
@@ -39,7 +39,7 @@
         </div>
         <div class="form-group col-md-6 pr-4">
           <label for="inputSubject">Choisir la matière</label>
-          <select id="inputSubject" class="form-control">
+          <select name="inputSubject" id="inputSubject" class="form-control">
             <option selected>Mathématiques</option>
             <option>Physique-Chimie</option>
           </select>
@@ -47,8 +47,8 @@
       </div>
       <div class="form-row">
         <div class="form-group col-md-6 pr-4">
-          <label for="inputOption">Disponibilité</label>
-          <select id="inputOption" class="form-control">
+          <label for="dispoOption">Disponibilité</label>
+          <select name="dispoOption" id="dispoOption" class="form-control">
             <option selected>Matin</option>
             <option>Après-midi</option>
             <option>Matin et après-midi</option>
@@ -56,7 +56,7 @@
         </div>
         <div class="form-group col-md-6 pr-4">
           <label for="inputOption">Choisir l'option</label>
-          <select id="inputOption" class="form-control">
+          <select name="groupOption" id="inputOption" class="form-control">
             <option selected>En groupe</option>
             <option>Individuel</option>
           </select>
@@ -65,13 +65,13 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputAverageGrade">Moyenne de l'année précédente</label>
-          <input type="number" class="form-control" id="inputAverageGrade" placeholder="Moyenne" required>
+          <input type="number" class="form-control" id="inputAverageGrade" name="inputAverageGrade" placeholder="Moyenne" required>
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-12">
           <label for="inputNotes">Informations supplémentaires</label>
-          <textarea class="form-control" id="inputNotes" rows="4" placeholder="Ajoutez des informations supplémentaires ici..."></textarea>
+          <textarea class="form-control" id="inputNotes" name="inputNotes" rows="4" placeholder="Ajoutez des informations supplémentaires ici..."></textarea>
         </div>
       </div>
       <input type="hidden" name="_subject" value="New Contact Form Submission">
