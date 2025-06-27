@@ -29,4 +29,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 # Added at 2022-08-04 08:13:04 +0200 by stephanecedroni:
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
